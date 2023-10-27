@@ -14,7 +14,7 @@ export default function CardSection() {
               </div>
               <div className=" p-4">
               <p className=" text-xl font-semibold">{data.title}</p>
-              <p className=" opacity-75 text-sm">{data.discription}</p>
+              <p className=" opacity-75 text-sm">{data.description}</p>
               </div>
             </Link>
           </div>

@@ -12,10 +12,10 @@ export default function SearchSection() {
           Find the best doctors, clinics & hospitals in the city nearest to you.
         </h1>
         <div className=" flex gap-4 ">
-          <label htmlFor="text">
+          <label htmlFor="search">
             <input
-              type="text"
-              id="text"
+              type="search"
+              id="search"
               placeholder="Search"
               className=" border text-black border-black rounded py-3 pl-3 pr-24 w-full"
             />

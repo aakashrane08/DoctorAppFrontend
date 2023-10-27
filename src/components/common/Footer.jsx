@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { MdOutlineDoubleArrow, MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -36,10 +37,10 @@ export default function Footer() {
           <ul className="flex flex-col gap-3 text-lg">
             <ul className=" flex gap-3 items-center">
               <MdOutlineDoubleArrow />
-              <p className=" hover:transition-transform hover:duration-500 hover:cursor-pointer hover:translate-x-2">
+              <Link to='/about' className=" hover:transition-transform hover:duration-500 hover:cursor-pointer hover:translate-x-2">
                 {" "}
                 About Us
-              </p>{" "}
+              </Link>{" "}
             </ul>
             <ul className=" flex gap-3 items-center">
               <MdOutlineDoubleArrow />

@@ -42,15 +42,26 @@ details > summary {
 details > summary::-webkit-details-marker {
   display: none;
 }
-.homelogo {
+.homepage {
   background-image: url(https://www.quickobook.com/assets/img/home_bg.jpg);
   background-position: center;
   background-size: 100% auto;
   min-height: 320px;
   background-repeat: no-repeat;
 } 
-/* 
-.homecolor {
-  background: rgb(65,57,209);
-  background: linear-gradient(90deg, rgba(65,57,209,1) 0%, rgba(255,255,255,1) 100%);
-} */
+
+.aboutpage {
+  background-image: url(https://www.quickobook.com/assets/img/breadcumb-background.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  min-height: 320px;
+  background-repeat: no-repeat;
+} 
+
+.doctorpage {
+  background-image: url(https://www.practostatic.com/web-assets/home/assets/images/homepage.06859593240c3efd483fe48951cfe6ff.svg);
+  background-position: center;
+  background-size: 100% auto;
+  height:100%;
+  background-repeat: no-repeat;
+}

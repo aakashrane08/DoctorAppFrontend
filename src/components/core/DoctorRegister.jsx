@@ -122,11 +122,11 @@ export default function DoctorRegister() {
               className=" border border-slate-400 rounded-md w-full px-2 py-2"
             >
               <option value="">Select</option>
-              <option value="ENT">ENT</option>
-              <option value="GYNO">GYNO</option>
-              <option value="ORTHO">ORTHO</option>
-              <option value="CARDIO">CARDIO</option>
-              <option value="DENTAL">DENTAL</option>
+              <option value="Dentist">Dentist</option>
+              <option value="Gynecologist">Gynecologist</option>
+              <option value="Orthopedist">Orthopedist</option>
+              <option value="Cardiologist">Cardiologist</option>
+              <option value="Neutrologist">Neutrologist</option>
             </select>
           </label>
           <label htmlFor="lastName">
