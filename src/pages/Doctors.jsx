@@ -169,7 +169,7 @@ export default function Doctors() {
               <input
                 type="number"
                 placeholder=" Enter phone number"
-                className=" border border-black rounded w-2/3 py-2"
+                className=" border border-black rounded w-2/3 py-2 outline-none"
               />
               <button className=" w-1/3 px-3 py-2 bg-blue-700 border border-black rounded text-white hover:text-black transition-all duration-300 hover:bg-white">
                 Send App Link

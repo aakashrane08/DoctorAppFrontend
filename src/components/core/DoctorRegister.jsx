@@ -63,7 +63,7 @@ export default function DoctorRegister() {
               value={firstName}
               placeholder="First Name"
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-full px-2 py-2"
+              className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
             />
           </label>
           <label htmlFor="lastName">
@@ -77,7 +77,7 @@ export default function DoctorRegister() {
               value={lastName}
               placeholder="Last Name"
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-full px-2 py-2"
+              className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
             />
           </label>
         </div>
@@ -92,7 +92,7 @@ export default function DoctorRegister() {
             value={email}
             placeholder="Enter Email"
             onChange={changeHandler}
-            className=" border border-slate-400 rounded-md w-full px-2 py-2"
+            className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
           />
         </label>
         <label htmlFor="password">
@@ -106,7 +106,7 @@ export default function DoctorRegister() {
             value={password}
             placeholder="Enter Password"
             onChange={changeHandler}
-            className=" border border-slate-400 rounded-md w-full px-2 py-2"
+            className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
           />
         </label>
         <div className=" flex flex-col justify-between gap-2">
@@ -119,7 +119,7 @@ export default function DoctorRegister() {
               id="specialization"
               value={specialization}
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-full px-2 py-2"
+              className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
             >
               <option value="">Select</option>
               <option value="Dentist">Dentist</option>
@@ -138,7 +138,7 @@ export default function DoctorRegister() {
               id="qualification"
               value={qualification}
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-full px-2 py-2"
+              className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
             >
               <option value="">Select</option>
               <option value="MBBS">MBBS</option>

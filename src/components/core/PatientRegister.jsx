@@ -61,7 +61,7 @@ export default function PatientRegister() {
               value={firstName}
               placeholder="First Name"
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-full px-2 py-2"
+              className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
             />
           </label>
           <label htmlFor="lastName">
@@ -75,7 +75,7 @@ export default function PatientRegister() {
               value={lastName}
               placeholder="Last Name"
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-full px-2 py-2"
+              className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
             />
           </label>
         </div>
@@ -90,7 +90,7 @@ export default function PatientRegister() {
             value={email}
             placeholder="Enter Email"
             onChange={changeHandler}
-            className=" border border-slate-400 rounded-md w-full px-2 py-2"
+            className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
           />
         </label>
         <label htmlFor="password">
@@ -104,7 +104,7 @@ export default function PatientRegister() {
             value={password}
             placeholder="Enter Password"
             onChange={changeHandler}
-            className=" border border-slate-400 rounded-md w-full px-2 py-2"
+            className=" border border-slate-400 rounded-md w-full px-2 py-2 outline-none"
           />
         </label>
         <div className=" flex justify-between items-end">
@@ -117,7 +117,7 @@ export default function PatientRegister() {
               id="bloodGroup"
               value={bloodGroup}
               onChange={changeHandler}
-              className=" border border-slate-400 rounded-md w-fit px-2 py-2"
+              className=" border border-slate-400 rounded-md w-fit px-2 py-2 outline-none"
             >
               <option value="">Select</option>
               <option value="APLUS">A+</option>

@@ -42,7 +42,7 @@ export default function LoginForm() {
             value={email}
             placeholder="Enter your Email"
             onChange={changeHandler}
-            className=" border border-slate-400 rounded-md w-full px-4 py-2"
+            className=" border border-slate-400 rounded-md w-full px-4 py-2 outline-none"
           />
         </label>
         <label htmlFor="password">
@@ -54,7 +54,7 @@ export default function LoginForm() {
             value={password}
             placeholder="Enter password"
             onChange={changeHandler}
-            className=" border border-slate-400 rounded-md w-full px-4 py-2"
+            className=" border border-slate-400 rounded-md w-full px-4 py-2 outline-none"
           />
         </label>
         <Link to="/forgotPassword">
