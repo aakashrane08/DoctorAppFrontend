@@ -65,3 +65,11 @@ details > summary::-webkit-details-marker {
   height:100%;
   background-repeat: no-repeat;
 }
+
+.medicineBg {
+  background-image: url(https://pharmacy.quickobook.com/public/banner_images/g6elW-112613-Wpb.jpg);
+  background-position: center;
+  /* background-size: 100% auto; */
+  height:100%;
+  background-repeat: no-repeat;
+}

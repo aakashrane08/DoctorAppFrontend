@@ -22,7 +22,7 @@ export default function Doctors() {
           <input
             type="search"
             placeholder="Search Doctors"
-            className=" h-11 pr-64 pl-3 rounded text-black"
+            className=" h-11 pr-64 pl-3 rounded text-black outline-none"
           />
         </div>
       </div>
